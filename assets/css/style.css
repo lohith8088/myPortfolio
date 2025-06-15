@@ -1033,3 +1033,277 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
+
+
+body {
+  background: #f4f9fb;
+  font-family: "Poppins", sans-serif;
+}
+
+*::selection {
+  background: #b2f0e6;
+  color: #22223b;
+}
+
+html::-webkit-scrollbar-track {
+  background: #e0f7fa;
+}
+html::-webkit-scrollbar-thumb {
+  background: #38b6ff;
+}
+
+/* navbar starts */
+header {
+  background-color: #e0f7fa;
+  box-shadow: 0 1px 4px rgba(56, 182, 255, 0.10);
+}
+.heading {
+  color: #22223b;
+}
+.heading span {
+  color: #38b6ff;
+}
+header .logo {
+  color: #38b6ff;
+}
+header .logo:hover {
+  color: #ffb347;
+}
+header .navbar ul li a {
+  color: #22223b;
+}
+header .navbar ul li a.active,
+header .navbar ul li a:hover {
+  color: #38b6ff;
+  border-bottom: 0.2rem solid #38b6ff;
+}
+/* navbar ends */
+
+/* hamburger icon starts*/
+#menu {
+  color: #38b6ff;
+}
+@media (max-width: 768px) {
+  header .navbar {
+    background-color: #38b6ff;
+  }
+  header .navbar ul li a {
+    color: #fff;
+  }
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover {
+    color: #fff;
+    border-bottom: 0.5rem solid #b2f0e6;
+  }
+}
+/* hamburger icon ends */
+
+/* hero section starts*/
+.home .content h2 {
+  color: #22223b;
+}
+.home .content h2 span {
+  color: #38b6ff;
+}
+.home .content p {
+  color: #3a506b;
+}
+.home .content p span {
+  color: #ff6363;
+}
+.home .btn {
+  background: #38b6ff;
+}
+.home .btn:hover {
+  background: #3ec6e0;
+}
+/* social icons start */
+.social-icons a {
+  color: #38b6ff;
+  background-color: #f4f9fb;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #3ec6e0;
+}
+.social-icons a.github:hover {
+  background-color: #3a506b;
+}
+.social-icons a.twitter:hover {
+  background-color: #1da1f2;
+}
+.social-icons a.linkedin:hover {
+  background-color: #38b6ff;
+}
+.social-icons a.dev:hover {
+  background-color: #3a506b;
+}
+.social-icons a.instagram:hover {
+  background-color: #ff6363;
+}
+/* social icons end */
+
+/* about section starts */
+.about {
+  background: #fff;
+}
+.about .row .content h3 {
+  color: #22223b;
+}
+.about .row .content .tag {
+  color: #38b6ff;
+}
+.about .row .content .box-container .box p span {
+  color: #38b6ff;
+}
+.resumebtn .btn {
+  background: #38b6ff;
+}
+.resumebtn .btn:hover {
+  background: #3ec6e0;
+}
+/* about section ends */
+
+/* skills section starts */
+.skills {
+  background: linear-gradient(to bottom, #e0f7fa, #b2f0e6);
+}
+.skills .heading span {
+  color: #ffb347;
+}
+.skills .container {
+  background: rgba(56, 182, 255, 0.08);
+  color: #22223b;
+}
+.skills .container .bar {
+  background: rgba(56, 182, 255, 0.18);
+}
+.skills .container .bar:hover {
+  box-shadow: 0 8px 10px rgba(56, 182, 255, 0.15) !important;
+  background-color: rgba(62, 198, 224, 0.12) !important;
+}
+/* skills section ends */
+
+/* education section starts */
+.education {
+  background: #f4f9fb;
+}
+.education .box-container .box {
+  background: #fff;
+}
+.education .box-container .box .content h3 {
+  color: #38b6ff;
+}
+.education h4 {
+  color: #2ecc71;
+}
+/* education section ends */
+
+/* work section starts */
+.work {
+  background: linear-gradient(to bottom, #e0f7fa, #b2f0e6);
+}
+.work h2 {
+  color: #22223b;
+}
+.work .heading span {
+  color: #ffb347;
+}
+.work .box-container .box .content {
+  background: rgba(244, 249, 251, 0.97);
+}
+.work .box-container .box .content .tag {
+  background: #ffb347;
+}
+.work .desc .btns .btn {
+  background: #38b6ff;
+}
+.work .desc .btns .btn:hover {
+  background: #3ec6e0;
+}
+.work .viewall .btn {
+  color: #38b6ff;
+  border: 2px solid #38b6ff;
+  box-shadow: 0px 5px 10px rgba(56, 182, 255, 0.12);
+}
+.work .viewall .btn:hover {
+  background: #38b6ff;
+  color: #fff;
+}
+/* work section ends */
+
+/* contact section starts */
+.contact {
+  background: #f4f9fb;
+}
+.contact .container {
+  background: #fff;
+}
+form .field input,
+form .message textarea {
+  background: #f4f9fb;
+  border: 1px solid #b2f0e6;
+}
+.field input:focus,
+.message textarea:focus {
+  border: 2px solid #38b6ff;
+}
+form i {
+  color: #38b6ff;
+}
+form .button-area button {
+  background: #38b6ff;
+}
+form .button-area button:hover {
+  background: #3ec6e0;
+}
+/* contact section ends */
+
+/* footer section starts */
+.footer {
+  background: #b2f0e6;
+}
+.footer .box-container .box h3 {
+  color: #38b6ff;
+}
+.footer .box-container .box p {
+  color: #3a506b;
+}
+.footer .box-container .box p i {
+  color: #38b6ff;
+}
+.footer .box-container .box a {
+  color: #3a506b;
+}
+.footer .box-container .box a:hover {
+  color: #38b6ff;
+}
+.footer .box-container .box .share a {
+  background: #f4f9fb;
+  color: #38b6ff;
+}
+.footer .box-container .box .share a:hover {
+  color: #ffb347;
+  border: 0.1rem solid #ffb347;
+}
+.footer .credit {
+  color: #3a506b;
+  border-top: 0.1rem solid #38b6ff;
+}
+.footer .credit a {
+  color: #38b6ff;
+}
+.footer .fa {
+  color: #ff6363;
+}
+/* footer section ends */
+
+#scroll-top {
+  background: #ffb347;
+  color: #38b6ff;
+}
+#scroll-top.active {
+  top: calc(100% - 12rem);
+}
